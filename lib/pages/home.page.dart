@@ -28,7 +28,11 @@ class HomeMediumPage extends StatelessWidget {
                 "Join Medium.",
                 key: ValueKey("textTitle"),
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 48, fontWeight: FontWeight.w400),
+                style: TextStyle(
+                  fontSize: 42,
+                  fontWeight: FontWeight.w400,
+                  fontFamily: "serif",
+                ),
               ),
               const SizedBox(height: 40),
               const SocialButton(
